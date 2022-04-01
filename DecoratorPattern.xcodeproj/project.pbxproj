@@ -13,6 +13,14 @@
 		16D0EFC827F7500D00DDB0BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D0EFC627F7500D00DDB0BC /* Main.storyboard */; };
 		16D0EFCA27F7500F00DDB0BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D0EFC927F7500F00DDB0BC /* Assets.xcassets */; };
 		16D0EFCD27F7500F00DDB0BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D0EFCB27F7500F00DDB0BC /* LaunchScreen.storyboard */; };
+		16D0EFD627F7503C00DDB0BC /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0EFD527F7503C00DDB0BC /* Coffee.swift */; };
+		16D0EFD827F7529A00DDB0BC /* SimpleCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0EFD727F7529A00DDB0BC /* SimpleCoffee.swift */; };
+		16D0EFDA27F7534400DDB0BC /* CoffeeDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0EFD927F7534400DDB0BC /* CoffeeDecorator.swift */; };
+		16D0EFDC27F756B800DDB0BC /* Milk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0EFDB27F756B800DDB0BC /* Milk.swift */; };
+		16D0EFDE27F7580B00DDB0BC /* Cream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0EFDD27F7580B00DDB0BC /* Cream.swift */; };
+		16D0EFE027F7585E00DDB0BC /* Honey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0EFDF27F7585E00DDB0BC /* Honey.swift */; };
+		16D0EFE227F7589100DDB0BC /* Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0EFE127F7589100DDB0BC /* Sugar.swift */; };
+		16D0EFE427F7590400DDB0BC /* Whiskey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0EFE327F7590400DDB0BC /* Whiskey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		16D0EFC927F7500F00DDB0BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16D0EFCC27F7500F00DDB0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16D0EFCE27F7500F00DDB0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D0EFD527F7503C00DDB0BC /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		16D0EFD727F7529A00DDB0BC /* SimpleCoffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCoffee.swift; sourceTree = "<group>"; };
+		16D0EFD927F7534400DDB0BC /* CoffeeDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDecorator.swift; sourceTree = "<group>"; };
+		16D0EFDB27F756B800DDB0BC /* Milk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milk.swift; sourceTree = "<group>"; };
+		16D0EFDD27F7580B00DDB0BC /* Cream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cream.swift; sourceTree = "<group>"; };
+		16D0EFDF27F7585E00DDB0BC /* Honey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honey.swift; sourceTree = "<group>"; };
+		16D0EFE127F7589100DDB0BC /* Sugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sugar.swift; sourceTree = "<group>"; };
+		16D0EFE327F7590400DDB0BC /* Whiskey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whiskey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 		16D0EFBF27F7500D00DDB0BC /* DecoratorPattern */ = {
 			isa = PBXGroup;
 			children = (
+				16D0EFD427F7502300DDB0BC /* Decorator */,
 				16D0EFC027F7500D00DDB0BC /* AppDelegate.swift */,
 				16D0EFC227F7500D00DDB0BC /* SceneDelegate.swift */,
 				16D0EFC427F7500D00DDB0BC /* ViewController.swift */,
@@ -65,6 +82,21 @@
 				16D0EFCE27F7500F00DDB0BC /* Info.plist */,
 			);
 			path = DecoratorPattern;
+			sourceTree = "<group>";
+		};
+		16D0EFD427F7502300DDB0BC /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				16D0EFD527F7503C00DDB0BC /* Coffee.swift */,
+				16D0EFD727F7529A00DDB0BC /* SimpleCoffee.swift */,
+				16D0EFD927F7534400DDB0BC /* CoffeeDecorator.swift */,
+				16D0EFDB27F756B800DDB0BC /* Milk.swift */,
+				16D0EFDD27F7580B00DDB0BC /* Cream.swift */,
+				16D0EFDF27F7585E00DDB0BC /* Honey.swift */,
+				16D0EFE127F7589100DDB0BC /* Sugar.swift */,
+				16D0EFE327F7590400DDB0BC /* Whiskey.swift */,
+			);
+			path = Decorator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D0EFE227F7589100DDB0BC /* Sugar.swift in Sources */,
 				16D0EFC527F7500D00DDB0BC /* ViewController.swift in Sources */,
+				16D0EFDA27F7534400DDB0BC /* CoffeeDecorator.swift in Sources */,
 				16D0EFC127F7500D00DDB0BC /* AppDelegate.swift in Sources */,
+				16D0EFDC27F756B800DDB0BC /* Milk.swift in Sources */,
 				16D0EFC327F7500D00DDB0BC /* SceneDelegate.swift in Sources */,
+				16D0EFD627F7503C00DDB0BC /* Coffee.swift in Sources */,
+				16D0EFE027F7585E00DDB0BC /* Honey.swift in Sources */,
+				16D0EFE427F7590400DDB0BC /* Whiskey.swift in Sources */,
+				16D0EFDE27F7580B00DDB0BC /* Cream.swift in Sources */,
+				16D0EFD827F7529A00DDB0BC /* SimpleCoffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
